@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_6
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+project.subprojects{
+    apply plugin: 'java'
+    group = 'freemarker'
+    version = '1.0-SNAPSHOT'
+    sourceCompatibility = JavaVersion.VERSION_1_6
+    targetCompatibility = JavaVersion.VERSION_1_6
+
+    repositories {
+        mavenCentral()
+    }
+
+}
+
+configure(project(":webproject")) {
+    dependencies {
+        compile(
+                'org.freemarker:freemarker:2.3.19'
+        )
+    }
+}

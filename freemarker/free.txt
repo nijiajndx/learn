@@ -1,0 +1,53 @@
+Hello James
+this hello James
+    ProgramData: C:\ProgramData
+    USERPROFILE: C:\Users\sfit0450
+    PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+    USERDNSDOMAIN: SF.COM
+    windows_tracing_logfile: C:\BVTBin\Tests\installpackage\csilogfile.log
+    QPlusBinPath: D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\Bin
+    SystemDrive: C:
+    TEMP: C:\Users\sfit0450\AppData\Local\Temp
+    windows_tracing_flags: 3
+    ProgramFiles: C:\Program Files
+    Path: D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\backgroundtool\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\kissweather\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\searchtool\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\personalcenter\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\frequentapptips\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features\mirrorscreen\bin\;D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\Bin\;C:\Program Files\Common Files\NetSarang;d:\installed\oracle\product\10.2.0\client_1;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;d:\installed\nodejs\;D:\installed\maven3.2.3\bin;D:\installed\Ruby187\bin;D:\installed\gradle-1.10\bin;D:\installed\TortoiseSVN\bin;d:\installed\Ruby193\bin;d:\user\sfit0450\Application Data\npm
+    HOMEDRIVE: C:
+    PROCESSOR_REVISION: 3a09
+    TNS_ADMIN: D:\installed\oraclient
+    USERDOMAIN: SF
+    ALLUSERSPROFILE: C:\ProgramData
+    PROCESSOR_IDENTIFIER: x86 Family 6 Model 58 Stepping 9, GenuineIntel
+    BugReport: D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\Bin\bugreport.exe
+    QPlusFeaturesFinalReleasePath: D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes\features
+    SESSIONNAME: Console
+    TMP: C:\Users\sfit0450\AppData\Local\Temp
+    PROCESSOR_ARCHITECTURE: x86
+    =::: ::\
+    CommonProgramFiles: C:\Program Files\Common Files
+    LOGONSERVER: \\TWTB01VW0001
+    OS: Windows_NT
+    FP_NO_HOST_CHECK: NO
+    HOMEPATH: \Users\sfit0450
+    PROCESSOR_LEVEL: 6
+    GRADLE_OPTS: -Xdebug -Xrunjdwp:transport=dt_socket,address=9999,server=y,suspend=n
+    QPlusDevFeaturesPath: D:\user\sfit0450\Application Data\Tencent\features
+    LOCALAPPDATA: C:\Users\sfit0450\AppData\Local
+    QPlusExePath: D:\user\sfit0450\Application Data\Tencent\QPlus\
+    COMPUTERNAME: HQITSFIT0450A
+    QPlusResPath: D:\user\sfit0450\Application Data\Tencent\QPlus\4.8.3071.0\QPlusRes
+    SystemRoot: C:\windows
+    windir: C:\windows
+    NUMBER_OF_PROCESSORS: 2
+    PUBLIC: C:\Users\Public
+    PSModulePath: C:\windows\system32\WindowsPowerShell\v1.0\Modules\
+    USERNAME: sfit0450
+    QPlusAppsPath: D:\user\sfit0450\Application Data\Tencent\QPlus\apps
+    ComSpec: C:\windows\system32\cmd.exe
+    APPDATA: d:\user\sfit0450\Application Data
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//格式化字符串输出:
+                    main                2                   
+
+                    main                2                   

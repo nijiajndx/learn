@@ -1,0 +1,47 @@
+import java.util.concurrent.Callable
+
+//we create a java project
+apply plugin:'java'
+
+//set basename of archives
+archivesBaseName = 'gradle-sample'
+
+//define maven central repository for downloading dependencies
+repositories{
+	mavenCentral()
+}
+
+//we have a single dependency on junit
+//for testCompile configuration
+dependencies{
+	testCompile 'junit:junit:[4.8,)'
+}
+
+//extra task to create a JAR file with the source.
+task sourcesJar(type:Jar){
+	classifier='sources'
+	from sourceSets.main.allSource
+}
+
+//extra task to create a JAR file with Javadoc generated documentation
+task docJar(type:Jar,dependsOn:javadoc){
+	classifier='docs'
+	from javadoc.destinationDir
+}
+
+//Add extra Jar file to the list of artifacts for this project
+artifacts{
+	archives sourcesJar
+	archives docJar
+}
+
+task printInfo << {
+    def listOfFileNames = ['src', 'test']
+    println listOfFileNames as String[]
+    def rootFiles = files(new Callable<List<String>>() {
+        List<File> call() {
+            ['src', 'README', 'INSTALL'].findAll {
+                it.contains('I') }
+        }
+    })
+}

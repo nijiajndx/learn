@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+archivesBaseName = 'gradle-sample'
+version = '1.0'
+
+task runJava(type: JavaExec) {
+    dependsOn classes
+    description = 'Run gradle.sample.SampleApp'
+
+    // Java main class to execute.
+    main = 'gradle.sample.SampleApp'
+
+    // We need to set the classpath.
+    classpath sourceSets.main.runtimeClasspath
+
+    // Extra options can be set.
+    systemProperty 'sysProp', 'notUsed'
+
+    jvmArgs '-client'
+
+    // We can pass arguments to the main() method
+    // of gradle.sample.SampleApp.
+    args 'mainMethodArgument', 'notUsed'
+}
+
+//直接在此指定main class
+mainClassName = 'gradle.sample.SampleApp'
+
+// Extra configuration for run task if needed.
+run {
+    // Extra options can be set.
+    systemProperty 'sysProp', 'notUsed'
+    jvmArgs '-client'
+
+    // We can pass arguments to the main() method
+    // of gradle.sample.SampleApp.
+    args 'mainMethodArgument', 'notUsed'
+}

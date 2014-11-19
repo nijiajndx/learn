@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile(
+            'org.springframework:spring-core:4.0.0.RELEASE',
+            'org.springframework:spring-context:4.0.0.RELEASE',
+            'org.springframework:spring-jdbc:4.0.0.RELEASE',
+            'org.springframework:spring-tx:4.0.0.RELEASE',
+            'org.springframework:spring-orm:4.0.0.RELEASE',
+            'commons-dbcp:commons-dbcp:1.4',
+            'org.hibernate:hibernate-core:4.3.5.Final',
+            'log4j:log4j:1.2.17'
+    )
+}

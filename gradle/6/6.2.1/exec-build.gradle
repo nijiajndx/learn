@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task runJava(dependsOn: classes) <<{
+    javaexec{
+        main = 'gradle.sample.SampleApp'
+
+        classpath sourceSets.main.runtimeClasspath
+
+        maxHeapSize = '128m'
+        systemProperty 'sysProp','notUsed'
+        jvmArgs '-client'
+    }
+}
+
+runJava.description = 'Run gradle.sample.SampleApp'

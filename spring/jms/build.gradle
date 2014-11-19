@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile(
+            'org.springframework:spring-core:4.0.0.RELEASE',
+            'org.springframework:spring-jms:4.0.0.RELEASE',
+            'org.springframework:spring-context:4.0.0.RELEASE',
+            'javax.annotation:javax.annotation-api:1.2',
+            'org.apache.activemq:activemq-core:5.7.0',
+            'commons-dbcp:commons-dbcp:1.4',
+            'mysql:mysql-connector-java:5.1.33'
+    )
+}

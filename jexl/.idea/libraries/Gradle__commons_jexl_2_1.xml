@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: commons-jexl-2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jexl/2.1/b90a742f02a512ac931dd67ed84b0decae9fe44e/commons-jexl-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jexl/2.1/2c41ce8964f6beef43c03547fba50a0e5f74f447/commons-jexl-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

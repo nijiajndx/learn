@@ -1,0 +1,4 @@
+rootProject.name = '7.1'
+
+include  'tree'
+include  'flower'

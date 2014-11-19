@@ -1,0 +1,16 @@
+task simple <<{task ->
+	println "Running ${task.name}"	
+	println "Heloo ${message}"
+}
+
+simple.description="print task name"
+
+simple.doLast{
+	println "Done"
+}
+
+simple.doFirst{
+	println "Start"
+}
+
+simple.message="world"

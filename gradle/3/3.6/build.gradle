@@ -1,0 +1,12 @@
+ext.customProperty = 'custom'
+
+ext {
+	customProperty = 'custom'
+}
+task showProperties {
+	doLast {
+		println project.customProperty
+		println customProperty
+		println project.ext.customProperty
+	}
+}

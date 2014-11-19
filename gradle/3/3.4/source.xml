@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+	<person>
+		<name>joe</name>
+		<email>joe@email.com</email>
+	</person>
+	<person>
+		<name>putty</name>
+		<email>putty@email.com</email>
+	</person>
+	<person>
+		<name>elsa</name>
+		<email>elsa@email.com</email>
+	</person>
+</persons>
+

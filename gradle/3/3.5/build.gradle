@@ -1,0 +1,11 @@
+apply plugin:'java'
+
+task archiveFiles(type: Zip) {
+	from 'dist'
+	// Copy files to a directory inside the archive.
+	into 'files'
+	// Set destination directory.
+	destinationDir = file("$buildDir/zips")
+	// Set complete filename.
+	archiveName = 'dist-files.zip'
+}
