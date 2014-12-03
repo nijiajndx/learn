@@ -1,5 +1,6 @@
 package com.backbone.firstFun.action;
 
+import com.backbone.firstFun.module.AccountInfo;
 import com.backbone.firstFun.service.FirstService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,9 +17,7 @@ public class FirstAction {
 
     @RequestMapping("/first")
     @ResponseBody
-    public String fist(String firstParam,String secondParam){
-        String result = firstService.add(firstParam,secondParam);
-        System.out.println(result);
-        return result;
+    public AccountInfo fist(AccountInfo accountInfo){
+        return firstService.saveAccount(accountInfo);
     }
 }

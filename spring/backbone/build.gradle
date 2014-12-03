@@ -15,10 +15,17 @@ dependencies {
             'org.springframework:spring-core:4.0.0.RELEASE',
             'org.springframework:spring-webmvc:4.0.0.RELEASE',
             'org.springframework:spring-jdbc:4.0.0.RELEASE',
+            'org.springframework:spring-orm:4.0.0.RELEASE',
             'org.springframework:spring-tx:4.0.0.RELEASE',
-            'org.hibernate:hibernate-core:4.3.0.Final',
-            'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final',
 
+            'org.hibernate:hibernate-core:4.3.0.Final',
+            'org.hibernate:hibernate-entitymanager:4.3.0.Final',
+            'org.hibernate:hibernate-entitymanager:4.3.6.Final',
+
+            'commons-dbcp:commons-dbcp:1.4',
+            'javax.annotation:javax.annotation-api:1.2',
+            'javax.annotation:jsr250-api:1.0',
+            'mysql:mysql-connector-java:5.1.24',
             'log4j:log4j:1.2.17'
     )
 }
